@@ -1,0 +1,8 @@
+{
+  "*.ts": [
+    "eslint --check",
+    "tsc --noEmit",
+    "prettier --write",
+    "prettier --check"
+  ]
+}
